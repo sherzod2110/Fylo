@@ -1,0 +1,100 @@
+.navbar__list {
+  width: 274px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  list-style-type: none;
+}
+
+.navbar__link {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  transition: all 0.5s ease;
+}
+
+.navbar__link:hover {
+  border-bottom: 3px solid #fff;
+  padding-bottom: 5px;
+}
+
+.navbar__link:active {
+  border-bottom: 3px solid rgb(241, 7, 7);
+}
+
+.navbar__btn {
+  display: none;
+}
+
+// .navbar__img {
+//   width: 20px;
+//   height: 20px;
+//   display: block;
+//   background-color: transparent;
+// }
+
+
+
+
+@include breakpoint-down(705px) {
+  .navbar__list {
+    width: 190px;
+  }
+
+  .navbar__link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+    transition: all 0.5s ease;
+  }
+}
+
+
+
+
+@include breakpoint-down(544px) {
+  .navbar__list {
+    width: 200px;
+  }
+}
+
+
+@include breakpoint-down(429px) {
+  .navbar__list {
+    width: 160px;
+  }
+
+  .navbar__link {
+    font-size: 14px;
+    line-height: 15px;
+    color: #FFFFFF;
+    transition: all 0.5s ease;
+  }
+}
+
+
+@include breakpoint-down(358px) {
+  .navbar__list {
+    display: none;
+  }
+
+  .navbar__btn {
+    background-color: transparent;
+    border: none;
+    display: block;
+    cursor: pointer;
+  }
+
+  .navbar__img {
+    width: 20px;
+    height: 20px;
+    display: block;
+    background-color: transparent;
+  }
+  
+  
+}

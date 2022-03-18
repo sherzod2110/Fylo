@@ -1,0 +1,43 @@
+.header {
+  background-color: #1B2330;
+}
+
+.header__box-inner {
+  justify-content: space-between;
+  display: flex;
+  padding: 20px 0;
+}
+
+.header__link {
+  display: flex;
+  align-items: center;
+}
+
+
+@include breakpoint-down(601px) {
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 5px 5px rgb(3, 3, 3);
+    z-index: 50;
+  }
+
+  .header__box-inner {
+    padding: 10px 0;
+  }
+  
+} 
+
+@include breakpoint-down(358px) {
+  .header {
+    // margin-top: 48px;
+    padding-top: 5px;
+    position: fixed;
+    top: 0;
+    
+  }
+
+
+} 

@@ -1,0 +1,264 @@
+.hero__section {
+  background-color: #1B2330;
+  background-image: url(../../img/Path2.png);
+  background-repeat: no-repeat;
+  background-size: 1500px 2350px;
+  background-position-x: calc(50%);
+  background-position-y: calc(741px);
+  
+}
+
+.hero-section__hero-inner {
+  max-width: 734px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 60px 0;
+}
+
+.hero-section__hero-img {
+  width: 720px;
+  height: 534px;
+  display: block;
+}
+
+.hero-section__hero-heading {
+  max-width: 734px;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-section__hero-text {
+  max-width: 589px;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-section__btn {
+  padding: 19px 95px;
+  background: linear-gradient(152.13deg, #63E1D9 -150.21%, #34A0CD 170.03%);
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+  border-radius: 28px;
+  border: none;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+
+.hero-section__btn:hover {
+  background: linear-gradient(152.13deg, #b12c2c -150.21%, #250cff 170.03%);
+}
+
+.hero-section__btn:active {
+  background: linear-gradient(152.13deg, #250cff -150.21%, #b12c2c 170.03%);
+}
+
+
+
+  
+@include breakpoint-down(601px) {
+  .hero-section__hero-inner {
+    margin-top: 55px;
+  }
+  
+} 
+
+
+
+
+@include breakpoint-down(754px) {
+  .hero-section__hero-img {
+    width: 600px;
+    height: 434px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-section__hero-heading {
+    max-width: 734px;
+    font-size: 35px;
+    line-height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .hero-section__hero-text {
+    max-width: 570px;
+    font-size: 18px;
+    line-height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+
+@include breakpoint-down(754px) {
+  .hero-section__hero-img {
+    width: 500px;
+    height: 334px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+
+
+@include breakpoint-down(540px) {
+  .hero-section__hero-img {
+    width: 500px;
+    height: 334px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-section__hero-heading {
+    max-width: 472px;
+    font-size: 28px;
+    line-height: 43px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .hero-section__hero-text {
+    max-width: 570px;
+    font-size: 18px;
+    line-height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+
+
+@include breakpoint-down(526px) {
+  .hero-section__hero-img {
+    width: 384px;
+    height: 334px;
+    margin-top: -20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-section__hero-heading {
+    max-width: 468px;
+    font-size: 25px;
+    line-height: 43px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .hero-section__hero-text {
+    width: 454px;
+    font-size: 16px;
+    line-height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+
+
+@include breakpoint-down(481px) {
+  .hero-section__hero-img {
+    width: 355px;
+    height: 279px;
+    margin-top: -20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-section__hero-heading {
+    max-width: 468px;
+    font-size: 25px;
+    line-height: 43px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .hero-section__hero-text {
+    width: 355px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  
+.hero-section__btn {
+  padding: 11px 64px;
+  font-size: 14px;
+ }
+
+} 
+
+
+@include breakpoint-down(383px) {
+  .hero-section__hero-img {
+    width: 311px;
+    height: 230px;
+    margin-top: -20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-section__hero-heading {
+    max-width: 468px;
+    font-size: 25px;
+    line-height: 43px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .hero-section__hero-text {
+    max-width: 281px;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  
+.hero-section__btn {
+  padding: 11px 64px;
+  font-size: 14px;
+ }
+
+} 
+
+
+@include breakpoint-down(353px) {
+  .hero-section__hero-img {
+    width: 285px;
+    height: 218px;
+    margin-top: -38px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-section__hero-heading {
+    max-width: 462px;
+    font-size: 22px;
+    line-height: 36px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+.hero-section__btn {
+  padding: 11px 64px;
+  font-size: 14px;
+ }
+ 
+} 

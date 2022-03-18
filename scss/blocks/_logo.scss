@@ -1,0 +1,45 @@
+.logo {
+  width: 176px;
+  height: 51px;
+  display: block;
+  transition: all 0.5s ease;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+.logo:active {
+  transform: scale(0.9);
+}
+
+
+
+
+@include breakpoint-down(705px) {
+  .logo {
+    width: 130px;
+    height: 40px;
+    align-items: center;
+  }
+}
+
+
+
+
+
+@include breakpoint-down(429px) {
+  .logo {
+    width: 150px;
+    height: 40px;
+    align-items: center;
+  }
+}
+
+@include breakpoint-down(544px) {
+  .logo {
+    width: 120px;
+    height: 30px;
+    align-items: center;
+  }
+}
